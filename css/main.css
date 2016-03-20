@@ -1,0 +1,148 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+}
+.hidden {
+	display: none;
+}
+.carousel img {
+	width: 100%;
+	height: auto;
+}
+.parallax {
+	background-attachment: fixed;
+	background-position: 50% 0;
+	position: relative;
+}
+header{
+	background-image: url(../img/top_bg.jpg);
+	background-repeat: repeat-x;
+	background-position: top center;
+	min-height: 642px;
+	position: relative;
+	font-family: "BebasBold";
+}
+.top_line{
+	min-height: 97px;
+	-webkit-box-shadow: rgba(255,255,255,.2) 0 0 0 1px;
+	box-shadow: rgba(255,255,255,.2) 0 0 0 1px;
+	width: 100%;
+	background-color: rgba(0,0,0,.60);
+	padding: 22px 0;
+}
+.top_line a{
+	font-size: 20px;
+	border-bottom: #fff dashed 1px;
+	color: #fff;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s; 
+}
+.top_line a:hover {
+	border-bottom: transparent 1px dashed;
+}
+.top_addr{
+	padding-left: 50px;
+	background-image: url(../img/top_map.png);
+	background-repeat: no-repeat;
+	background-position: left top;
+	font-family: "BebasBold";
+	line-height: 26px;
+}
+.top_addr strong{
+	color: #d12f22;
+	display: block;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 32px;
+}
+.top_line .logo{
+	border-bottom: none;
+	position: absolute;
+	margin-top: -18px;
+}
+.top_line .logo:hover{
+	border-bottom: none;
+}
+.logo_wrap{
+	position: relative;
+	margin: auto;
+	width: 240px;
+}
+.ta_right{
+	background-image: none;
+	padding-left: 0;
+	text-align: right;
+}
+.ta_right span{
+	color: #fff;
+}
+header h1{
+	font-family: "BebasRegular";
+	color: #fff;
+	font-size: 40px;
+	margin-top: 55px;
+	text-align: center;
+	text-shadow: 0 3px rgba(0,0,0,0.55);
+}
+.button{
+	background-color: #d12f22;
+	display: inline-block;
+	font-size: 20px;
+	height: 50px;
+	line-height: 50px;
+	padding: 0 25px;
+	vertical-align: middle;
+	color: #fff;
+	border-bottom: #AC160A 4px solid;
+}
+header .button{
+	margin-right: 20px;
+}
+.button:hover{
+	background-color: #e64437;
+}
+.button:active{
+	background-color: #b81609;
+}
+.st_button{
+	line-height: 18px;
+	padding-top: 7px;
+	text-align: left;
+	padding-left: 63px;
+	background-image: url(../img/camera_icon.png);
+	background-repeat: no-repeat;
+	background-position: 8px 8px;
+}
+.buttons_top{
+	position: absolute;
+	width: 100%;
+	bottom: 32px;
+}
